@@ -1,0 +1,20 @@
+CREATE ROLE testuser
+WITH LOGIN PASSWORD '1234';
+
+GRANT CONNECT
+ON DATABASE postgres
+TO testuser;
+
+GRANT SELECT
+ON TABLE cats
+TO testuser ;
+
+GRANT SELECT
+ON TABLE dogs
+TO testuser ;
+
+GRANT SELECT
+ON TABLE pets
+TO testuser ;
+
+
