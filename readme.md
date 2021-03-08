@@ -3,8 +3,6 @@
 
 ### Design
 
-[ER-diagram](https://github.com/kongshaug/assignment_1_postgres/blob/master/ER%20diagram.PNG) der viser databasens struktur. 
-
 #### Joint-Table Strategy:
 Ved denne strategi, indeholder superklassers tabeller alle fælles værdier mellem underklasser.
 
@@ -39,7 +37,10 @@ Ved denne strategi, indeholder superklassers tabeller alle fælles værdier mell
 - Svært at opdatere med nye kolonner 
 - Du kan ikke sætte værdier der ikke er delt af klasserne til not null da værdierne ikke bruges i alle klasserne 
 
+
 På baggrund af de fordele og ulemper vi har fundet på de tre strategier, har vi valgt at udarbejde databasen med en Joint-Table Strategy. 
+
+[ER-diagram](https://github.com/kongshaug/assignment_1_postgres/blob/master/ER%20diagram.PNG) der viser databasens struktur. 
 
 ### Conceptual level implementation
 
