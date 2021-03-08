@@ -3,10 +3,10 @@
 
 ### Design
 
-ER-diagram der viser databasens struktur. 
+[ER-diagram](https://github.com/kongshaug/assignment_1_postgres/blob/master/ER%20diagram.PNG) der viser databasens struktur. 
 
 #### Joint-Table Strategy:
-Superklassens tabeller indeholder alle de delte værdier
+Ved denne strategi, indeholder superklassers tabeller alle fælles værdier mellem underklasser.
 
 ##### Pros:
 - Der er færre kolonner end i table per class
