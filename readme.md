@@ -40,7 +40,7 @@ Ved denne strategi, indeholder superklassers tabeller alle fælles værdier mell
 
 På baggrund af de fordele og ulemper vi har fundet på de tre strategier, har vi valgt at udarbejde databasen med en Joint-Table Strategy. 
 
-[ER-diagram](https://github.com/kongshaug/assignment_1_postgres/blob/master/ER%20diagram.PNG) der viser databasens struktur. 
+- [ER-diagram](https://github.com/kongshaug/assignment_1_postgres/blob/master/ER%20diagram.PNG) der viser databasens struktur. 
 
 ### Conceptual level implementation
 
